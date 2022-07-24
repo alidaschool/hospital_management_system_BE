@@ -1,0 +1,40 @@
+{
+  "name": "hospital_management_system_be",
+  "version": "1.0.0",
+  "description": "This is a restful API built with nodejs by cohort 4 backend students to implement a hospital management system",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alidaschool/hospital_management_system_BE.git"
+  },
+  "keywords": [
+    "restful",
+    "API",
+    "nodejs",
+    "hospital",
+    "managment",
+    "system"
+  ],
+  "author": "Alida cohort4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alidaschool/hospital_management_system_BE/issues"
+  },
+  "homepage": "https://github.com/alidaschool/hospital_management_system_BE#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
