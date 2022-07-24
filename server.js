@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const connectDB = require("./server/database/dbConnect");
 
 //dotenv setup
-dotenv.config( { path : 'config.env'} )
+dotenv.config( { path : 'conf.env'} )
 const PORT = process.env.PORT  || 3000;
 
 // connect to mongoDB Atlas
